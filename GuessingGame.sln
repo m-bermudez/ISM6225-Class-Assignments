@@ -5,6 +5,10 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GuessingGame", "GuessingGame\GuessingGame.csproj", "{0EA2E9E9-C01E-47C2-B378-EFBC51010269}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kattis Problems", "Kattis Problems", "{D137D700-B62A-434A-AD7A-06D6301E2634}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KattisApps", "Kattis Problems\KattisApps\KattisApps.csproj", "{A02AF666-2E2A-4FF4-83DA-260D8D68C226}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,8 +31,23 @@ Global
 		{0EA2E9E9-C01E-47C2-B378-EFBC51010269}.Release|x64.Build.0 = Release|Any CPU
 		{0EA2E9E9-C01E-47C2-B378-EFBC51010269}.Release|x86.ActiveCfg = Release|Any CPU
 		{0EA2E9E9-C01E-47C2-B378-EFBC51010269}.Release|x86.Build.0 = Release|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Debug|x64.Build.0 = Debug|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Debug|x86.Build.0 = Debug|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Release|x64.ActiveCfg = Release|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Release|x64.Build.0 = Release|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Release|x86.ActiveCfg = Release|Any CPU
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A02AF666-2E2A-4FF4-83DA-260D8D68C226} = {D137D700-B62A-434A-AD7A-06D6301E2634}
 	EndGlobalSection
 EndGlobal
